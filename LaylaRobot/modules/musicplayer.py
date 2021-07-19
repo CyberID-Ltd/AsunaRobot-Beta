@@ -18,17 +18,17 @@
 
 __mod_name__ = "Music Player"
 __help__ = """
-          <b>》** OdaXMusic ** 《</b>
+          <b>》** AsunaMusic ** 《</b>
             
  OdaXMusic plays plays music in your group's voice chat
  
- **Assistant Name** >> @OdaHelper
+ **Assistant Name** >> @BlueDragonExorcist
 
 ╔═════════════════════════════════
 ╠═1). Make bot admin
 ╠═2). Start a voice chat
 ╠═3). Try /play [song name] for the first time by an admin
-╠═4). If userbot joined enjoy music, If not add @OdaHelper 
+╠═4). If userbot joined enjoy music, If not add @BlueDragonExorcist 
 ╠═════════════════════════════════
 ╠═/play [title] - Play song using youtube music
 ╠═/play | /ytplay [yt url] - Play the given yt url
@@ -44,7 +44,7 @@ __help__ = """
 ╠═/player - Open Settings menu of player
 ╠═════════════════════════════════
 ╠═/admincache - Updates admin info of your group
-╠═/userbotjoin: Invite @OdaHelper Userbot to your chat
+╠═/userbotjoin: Invite @BlueDragonExorcist Userbot to your chat
 ╚═════════════════════════════════
 
 NOTE : Player cmd and all other cmds except /play, /current  and /playlist  are only for admins with manage group
