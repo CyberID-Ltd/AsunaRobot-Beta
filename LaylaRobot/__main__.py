@@ -99,7 +99,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="✯ Anime Group ✯", url=f"https://t.me/Grup_Anime_Chat"),
+        InlineKeyboardButton(text="✯ Anime Group ✯", url=f"https://t.me/AnimeKyokai"),
         InlineKeyboardButton(
             text="✯ Channnel ✯", url=f"https://t.me/SpreadNetworks"
         ),
@@ -119,10 +119,10 @@ Bug Report to @YBotsSupport[.](https://telegra.ph/file/dcdd9cfa26d7cd0f02869.jpg
    ❂ in PM: will send you your settings for all supported modules.
    ❂ in a group: will redirect you to pm, with all that chat's settings."""
 
-LAYLA_IMG = "https://telegra.ph/file/fa5805751e44608b1e162.png"
-ODA_IMG = "https://telegra.ph/file/ffe156089bcb0eb0bf239.jpg"
+LAYLA_IMG = "https://telegra.ph/file/0f1d8b3359156d649e1f2.jpg"
+ODA_IMG = "https://telegra.ph/file/93f60be8da68909c0329d.jpg"
 
-DONATE_STRING = """I'm Free For Everyone"""
+DONATE_STRING = """Join My Channel @SpreadNetworks"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -373,7 +373,7 @@ def layla_about_callback(update, context):
     query = update.callback_query
     if query.data == "layla_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Oda Nobunaga*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Asuna Yuuki*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -381,11 +381,11 @@ def layla_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_Oda's licensed under the GNU General Public License v3.0_
-                 \n❍ UserLazy Projects @UserLazyXBot
-                 \n❍ Support Group @OdaSupport
-                 \n❍ Assistant @OdaHelper.
-                 \nHere is the [Author](https://t.me/RxyMX).
-                 \n\nIf you have any question about Oda, let us know at .""",
+                 \n❍ Yoga Projects @SpreadNetworks
+                 \n❍ Support Group @YBotsSupport
+                 \n❍ Assistant @BlueDragonExorcist.
+                 \nHere is the [Author](https://t.me/Yoga_CIC).
+                 \n\nIf you have any question about Asuna, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -411,8 +411,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Oda*
-                 \nHere is the [Author](https://github.com/UserLazy) .""",
+            text=""" Hi..🤗 I'm *Asuna*
+                 \nHere is the [Author](https://github.com/CyberID-Ltd) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
