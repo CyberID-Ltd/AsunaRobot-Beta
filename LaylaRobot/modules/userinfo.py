@@ -631,7 +631,7 @@ When marked as AFK, any mentions will be replied to with a message to say you're
   ❍ /whois*:* get information about a user without pfp
 
 *What is that health thingy?*
- Come and see [HP System explained](https://t.me/OnePunchUpdates/192)
+ Come and see [HP System explained](https://t.me/asunalogs/25)
 """
 
 SET_BIO_HANDLER = DisableAbleCommandHandler("setbio", set_about_bio)
