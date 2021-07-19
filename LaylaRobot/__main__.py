@@ -111,16 +111,16 @@ buttons = [
 
 HELP_STRINGS = """
 *Main* commands available:
-*I'm Maintained By* @Yoga_CIC
-Bug Report to @YBotsSupport[.](https://telegra.ph/file/f2df3c00e2ba3dd090e27.jpg)
+*I'm Maintained By* @RxyMX 
+Bug Report to @OdaSupport[.](https://telegra.ph/file/dcdd9cfa26d7cd0f02869.jpg)
  ➛ /help: PM's you this message.
  ➛ /help <module name>: PM's you info about that module.
  ➛ /settings:
    ❂ in PM: will send you your settings for all supported modules.
    ❂ in a group: will redirect you to pm, with all that chat's settings."""
 
-LAYLA_IMG = "https://telegra.ph/file/f2df3c00e2ba3dd090e27.jpg"
-ODA_IMG = "https://telegra.ph/file/f2df3c00e2ba3dd090e27.jpg"
+LAYLA_IMG = "https://telegra.ph/file/0f1d8b3359156d649e1f2.jpg"
+ODA_IMG = "https://telegra.ph/file/93f60be8da68909c0329d.jpg"
 
 DONATE_STRING = """I'm Free For Everyone"""
 
@@ -373,7 +373,7 @@ def layla_about_callback(update, context):
     query = update.callback_query
     if query.data == "layla_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Oda Nobunaga*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Yuuki Asuna*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
