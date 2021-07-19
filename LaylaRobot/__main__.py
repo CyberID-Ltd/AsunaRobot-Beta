@@ -77,9 +77,9 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 ──「 [Asuna Yuuki](https://telegra.ph/file/f2df3c00e2ba3dd090e27.jpg) 」──
 
-*Hello! {}-kun,*
+*Yoshaa! {},*
 *I'm Anime themed group management bot*
-I've have many extra features.
+I've some features for you :)
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 • *Uptime:* `{}`
 • `{}` *users, across* `{}` *chats.*
@@ -105,7 +105,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="[▶ Help ◀]", callback_data="help_back"),
+        InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
     ],
 ]
 
@@ -122,7 +122,7 @@ Bug Report to @YBotsSupport[.](https://telegra.ph/file/dcdd9cfa26d7cd0f02869.jpg
 LAYLA_IMG = "https://telegra.ph/file/0f1d8b3359156d649e1f2.jpg"
 ODA_IMG = "https://telegra.ph/file/93f60be8da68909c0329d.jpg"
 
-DONATE_STRING = """Join My Channel @SpreadNetworks"""
+DONATE_STRING = """I'm Free For Everyone"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -381,7 +381,7 @@ def layla_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_Oda's licensed under the GNU General Public License v3.0_
-                 \n❍ Yoga Projects @SpreadNetworks
+                 \n❍ Projects @SpreadNetworks
                  \n❍ Support Group @YBotsSupport
                  \n❍ Assistant @BlueDragonExorcist.
                  \nHere is the [Author](https://t.me/Yoga_CIC).
@@ -412,7 +412,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *Asuna*
-                 \nHere is the [Author](https://github.com/CyberID-Ltd) .""",
+                 \nHere is the [Author](https://github.com/zYxDevs) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
