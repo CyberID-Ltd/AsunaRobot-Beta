@@ -75,7 +75,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-──「 [Asuna](https://telegra.ph/file/3030791a3ed7983532501.jpg) 」──
+──「 [Asuna Yuuki](https://telegra.ph/file/f2df3c00e2ba3dd090e27.jpg) 」──
 
 *Hello! {}-kun,*
 *I'm Anime themed group management bot*
@@ -112,7 +112,7 @@ buttons = [
 HELP_STRINGS = """
 *Main* commands available:
 *I'm Maintained By* @Yoga_CIC 
-Bug Report to @YBotsSupport[.](https://telegra.ph/file/f8b3ba005b0a685048ba2.jpg)
+Bug Report to @YBotsSupport[.](https://telegra.ph/file/dcdd9cfa26d7cd0f02869.jpg)
  ➛ /help: PM's you this message.
  ➛ /help <module name>: PM's you info about that module.
  ➛ /settings:
