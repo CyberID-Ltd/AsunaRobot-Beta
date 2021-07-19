@@ -95,7 +95,7 @@ buttons = [
     [
         InlineKeyboardButton(text="✫ About ✫", callback_data="layla_"),
         InlineKeyboardButton(
-            text="✯ Group Support ✯", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="✯ Support ✯", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
     ],
     [
@@ -105,7 +105,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
+        InlineKeyboardButton(text="[▶ Help ◀]", callback_data="help_back"),
     ],
 ]
 
