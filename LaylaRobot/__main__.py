@@ -75,11 +75,11 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-──「 [Oda Nobunaga](https://telegra.ph/file/fa5805751e44608b1e162.png) 」──
+──「 [Asuna](https://telegra.ph/file/3030791a3ed7983532501.jpg) 」──
 
-*Yoshaa! {},*
+*Hello! {}-kun,*
 *I'm Anime themed group management bot*
-I've some features for you :)
+I've have many extra features.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 • *Uptime:* `{}`
 • `{}` *users, across* `{}` *chats.*
@@ -90,7 +90,7 @@ I've some features for you :)
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/OdaRobot?startgroup=true"),
+            text="➕️ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/YogaWaifuBot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="✫ About ✫", callback_data="layla_"),
@@ -101,7 +101,7 @@ buttons = [
     [
         InlineKeyboardButton(text="✯ Anime Group ✯", url=f"https://t.me/Grup_Anime_Chat"),
         InlineKeyboardButton(
-            text="✯ Channnel ✯", url=f"https://t.me/userlazyxbot"
+            text="✯ Channnel ✯", url=f"https://t.me/SpreadNetworks"
         ),
     ],
     [
@@ -111,8 +111,8 @@ buttons = [
 
 HELP_STRINGS = """
 *Main* commands available:
-*I'm Maintained By* @RxyMX 
-Bug Report to @OdaSupport[.](https://telegra.ph/file/f8b3ba005b0a685048ba2.jpg)
+*I'm Maintained By* @Yoga_CIC 
+Bug Report to @YBotsSupport[.](https://telegra.ph/file/f8b3ba005b0a685048ba2.jpg)
  ➛ /help: PM's you this message.
  ➛ /help <module name>: PM's you info about that module.
  ➛ /settings:
