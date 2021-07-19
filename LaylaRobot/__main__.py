@@ -95,7 +95,7 @@ buttons = [
     [
         InlineKeyboardButton(text="✫ About ✫", callback_data="layla_"),
         InlineKeyboardButton(
-            text="✯ Support ✯", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="✯ Group Support ✯", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
     ],
     [
@@ -111,16 +111,16 @@ buttons = [
 
 HELP_STRINGS = """
 *Main* commands available:
-*I'm Maintained By* @RxyMX 
-Bug Report to @OdaSupport[.](https://telegra.ph/file/dcdd9cfa26d7cd0f02869.jpg)
+*I'm Maintained By* @Yoga_CIC
+Bug Report to @OdaSupport[.](https://telegra.ph/file/f2df3c00e2ba3dd090e27.jpg)
  ➛ /help: PM's you this message.
  ➛ /help <module name>: PM's you info about that module.
  ➛ /settings:
    ❂ in PM: will send you your settings for all supported modules.
    ❂ in a group: will redirect you to pm, with all that chat's settings."""
 
-LAYLA_IMG = "https://telegra.ph/file/0f1d8b3359156d649e1f2.jpg"
-ODA_IMG = "https://telegra.ph/file/93f60be8da68909c0329d.jpg"
+LAYLA_IMG = "https://telegra.ph/file/f2df3c00e2ba3dd090e27.jpg"
+ODA_IMG = "https://telegra.ph/file/f2df3c00e2ba3dd090e27.jpg"
 
 DONATE_STRING = """I'm Free For Everyone"""
 
@@ -373,7 +373,7 @@ def layla_about_callback(update, context):
     query = update.callback_query
     if query.data == "layla_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Asuna Yuuki*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Oda Nobunaga*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -381,11 +381,11 @@ def layla_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_Oda's licensed under the GNU General Public License v3.0_
-                 \n❍ Projects @SpreadNetworks
-                 \n❍ Support Group @YBotsSupport
-                 \n❍ Assistant @BlueDragonExorcist.
-                 \nHere is the [Author](https://t.me/Yoga_CIC).
-                 \n\nIf you have any question about Asuna, let us know at .""",
+                 \n❍ UserLazy Projects @UserLazyXBot
+                 \n❍ Support Group @OdaSupport
+                 \n❍ Assistant @OdaHelper.
+                 \nHere is the [Author](https://t.me/RxyMX).
+                 \n\nIf you have any question about Oda, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -411,8 +411,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Asuna*
-                 \nHere is the [Author](https://github.com/zYxDevs) .""",
+            text=""" Hi..🤗 I'm *Oda*
+                 \nHere is the [Author](https://github.com/UserLazy) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
