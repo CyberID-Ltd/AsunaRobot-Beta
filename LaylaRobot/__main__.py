@@ -111,10 +111,10 @@ buttons = [
 
 HELP_STRINGS = """
 *Main* commands available:
-*I'm Maintained By* @Yoga_CIC 
-Bug Report to @zYxDevs[.](https://telegra.ph/file/dcdd9cfa26d7cd0f02869.jpg)
+*I'm Maintained By* @RxyMX 
+Bug Report to @OdaSupport[.](https://telegra.ph/file/dcdd9cfa26d7cd0f02869.jpg)
  ➛ /help: PM's you this message.
- ➛ /help : PM's you info about that module.
+ ➛ /help <module name>: PM's you info about that module.
  ➛ /settings:
    ❂ in PM: will send you your settings for all supported modules.
    ❂ in a group: will redirect you to pm, with all that chat's settings."""
