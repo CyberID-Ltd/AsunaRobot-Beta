@@ -111,8 +111,8 @@ buttons = [
 
 HELP_STRINGS = """
 *Main* commands available:
-*I'm Maintained By* @RxyMX 
-Bug Report to @OdaSupport[.](https://telegra.ph/file/dcdd9cfa26d7cd0f02869.jpg)
+*I'm Maintained By* @zYxDx 
+Bug Report to @zYxSupport[.](https://telegra.ph/file/dcdd9cfa26d7cd0f02869.jpg)
  ➛ /help: PM's you this message.
  ➛ /help <module name>: PM's you info about that module.
  ➛ /settings:
