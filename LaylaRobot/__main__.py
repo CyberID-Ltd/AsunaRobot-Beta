@@ -380,12 +380,12 @@ def layla_about_callback(update, context):
                  \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\n_Oda's licensed under the GNU General Public License v3.0_
-                 \n❍ UserLazy Projects @UserLazyXBot
-                 \n❍ Support Group @OdaSupport
-                 \n❍ Assistant @OdaHelper.
-                 \nHere is the [Author](https://t.me/RxyMX).
-                 \n\nIf you have any question about Oda, let us know at .""",
+                 \n\n_Asuna Yuuki's licensed under the GNU General Public License v3.0_
+                 \n❍ Projects @SpreadNetworks
+                 \n❍ Support Group @YBotsSupport
+                 \n❍ Assistant @BlueDragonExorcist.
+                 \nHere is the [Author](https://t.me/Yoga_CIC).
+                 \n\nIf you have any question about Asuna, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -411,8 +411,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Oda*
-                 \nHere is the [Author](https://github.com/UserLazy) .""",
+            text=""" Hi..🤗 I'm *Asuna Yuuki*
+                 \nHere is the [Author](https://github.com/zYxDevs) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
