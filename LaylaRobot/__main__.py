@@ -112,7 +112,7 @@ buttons = [
 HELP_STRINGS = """
 *Main* commands available:
 *I'm Maintained By* @Yoga_CIC
-Bug Report to @OdaSupport[.](https://telegra.ph/file/f2df3c00e2ba3dd090e27.jpg)
+Bug Report to @YBotsSupport[.](https://telegra.ph/file/f2df3c00e2ba3dd090e27.jpg)
  ➛ /help: PM's you this message.
  ➛ /help <module name>: PM's you info about that module.
  ➛ /settings:
