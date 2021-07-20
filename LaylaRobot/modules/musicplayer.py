@@ -18,9 +18,9 @@
 
 __mod_name__ = "Music Player"
 __help__ = """
-          <b>》** AsunaMusic ** 《</b>
+          <b>》** Asuna Music ** 《</b>
             
- OdaXMusic plays plays music in your group's voice chat
+ Asuna Music plays plays music in your group's voice chat
  
  **Assistant Name** >> @BlueDragonExorcist
 
