@@ -429,10 +429,10 @@ async def del_profanity(event):
 #
 
 __help__ = """
-**Group Guardian:**
+*Group Guardian:*
 ✪ Asuna can protect your group from NSFW senders, Slag word users and also can force members to use English
 
-**Commmands**
+*Commmands*
  - /gshield <i>on/off</i> - Enable|Disable Porn cleaning
  - /globalmode <i>on/off</i> - Enable|Disable English only mode
  - /profanity <i>on/off</i> - Enable|Disable slag word cleaning
