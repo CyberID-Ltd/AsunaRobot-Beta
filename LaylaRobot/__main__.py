@@ -383,7 +383,7 @@ def layla_about_callback(update, context):
                  \n\n_Asuna Yuuki's licensed under the GNU General Public License v3.0_
                  \n❍ Projects @SpreadNetworks
                  \n❍ Support Group @YBotsSupport
-                 \n❍ Assistant @BlueDragonExorcist.
+                 \n❍ Assistant @AsunaPlayer.
                  \nHere is the [Author](https://t.me/Yoga_CIC).
                  \n\nIf you have any question about Asuna, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
