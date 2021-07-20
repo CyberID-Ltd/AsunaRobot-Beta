@@ -1,4 +1,4 @@
-[![Deploy](https://telegra.ph/file/f2df3c00e2ba3dd090e27.jpg)](https://heroku.com/deploy?template=https://github.com/zYxDevs/AsunaRobot-Beta.git)
+[![Deploy](https://telegra.ph/file/f2df3c00e2ba3dd090e27.jpg)](https://t.me/YogWaifuBot)
 # Asuna Robot
 ### Click Below Image to Deploy
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
@@ -47,13 +47,13 @@ An example `config.py` file could be:
 from LaylaRobot.sample_config import Config
 
 class Development(Config):
-    OWNER_ID = 254318997  # your telegram ID
-    OWNER_USERNAME = "SonOfLars"  # your telegram username
+    OWNER_ID = 1249591948  # your telegram ID
+    OWNER_USERNAME = "Yoga_CIC"  # your telegram username
     API_KEY = "your bot api key"  # your api key, as provided by the @botfather
     SQLALCHEMY_DATABASE_URI = 'postgresql://username:password@localhost:5432/database'  # sample db credentials
-    MESSAGE_DUMP = '-1234567890' # some group chat that your bot is a member of
+    MESSAGE_DUMP = '-1001370800241' # some group chat that your bot is a member of
     USE_MESSAGE_DUMP = True
-    SUDO_USERS = [18673980, 83489514]  # List of id's for users which have sudo access to the bot.
+    SUDO_USERS = [1883915673, 83489514]  # List of id's for users which have sudo access to the bot.
     LOAD = []
     NO_LOAD = ['translation']
 ```
@@ -194,5 +194,5 @@ The bot is based on the original work done by [PaulSonOfLars](https://github.com
 
 
 
-## [OWNER Ihsan](https://t.me/RxyMX)
+### [OWNER Ihsan](https://t.me/RxyMX)
 ### [Kanger Code](https://t.me/Yoga_CIC)
