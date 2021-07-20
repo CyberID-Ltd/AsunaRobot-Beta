@@ -138,6 +138,9 @@ You should now be able to build your database URI. This will be:
 Replace sqldbtype with whichever DB you're using (eg Postgres, MySQL, SQLite, etc)
 repeat for your username, password, hostname (localhost?), port (5432?), and DB name.
 
+Or, register on [ElephantSQL](https://www.elephantsql.com/) for free Postgresql.
+Learn for your self, i won't learn you anything.
+
   ## Modules
    ### Setting load order.
 
