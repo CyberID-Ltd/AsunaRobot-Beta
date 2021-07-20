@@ -22,13 +22,13 @@ __help__ = """
             
  Asuna Music plays plays music in your group's voice chat
  
- **Assistant Name** >> @BlueDragonExorcist
+ **Assistant Name** >> @AsunaPlayer
 
 ╔═════════════════════════════════
 ╠═1). Make bot admin
 ╠═2). Start a voice chat
 ╠═3). Try /play [song name] for the first time by an admin
-╠═4). If userbot joined enjoy music, If not add @BlueDragonExorcist 
+╠═4). If userbot joined enjoy music, If not add @AsunaPlayer
 ╠═════════════════════════════════
 ╠═/play [title] - Play song using youtube music
 ╠═/play | /ytplay [yt url] - Play the given yt url
@@ -44,7 +44,7 @@ __help__ = """
 ╠═/player - Open Settings menu of player
 ╠═════════════════════════════════
 ╠═/admincache - Updates admin info of your group
-╠═/userbotjoin: Invite @BlueDragonExorcist Userbot to your chat
+╠═/userbotjoin: Invite @AsunaPlayer Userbot to your chat
 ╚═════════════════════════════════
 
 NOTE : Player cmd and all other cmds except /play, /current  and /playlist  are only for admins with manage group
