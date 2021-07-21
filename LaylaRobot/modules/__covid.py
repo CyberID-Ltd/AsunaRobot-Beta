@@ -21,10 +21,8 @@ async def covid(_, message):
         await app.send_message(message.chat.id, text=data)
         return
 
-
+__mod_name__ = "Covid"
 __help__ = """
  ❍ /covid - To Get Global Stats of Covid.
  ❍ /covid <country> - To Get Stats of A Single Country.
 """
-
-__mod_name__ = "Covid"
