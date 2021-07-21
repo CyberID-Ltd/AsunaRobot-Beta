@@ -17,7 +17,7 @@ __help__ = """
 @capture_err
 async def github(_, message):
     if len(message.command) != 2:
-        await message.reply_text("/git Username")
+        await message.reply_text("/github username")
         return
     username = message.text.split(None, 1)[1]
     URL = f'https://api.github.com/users/{username}'
