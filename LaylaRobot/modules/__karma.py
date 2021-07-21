@@ -1,3 +1,5 @@
+# © zYxDevs and/or Yoga_CIC
+
 from LaylaRobot import pbot as Yoga
 from LaylaRobot.utils.errors import capture_err
 from LaylaRobot.utils.dbfunctions import (update_karma, get_karma, get_karmas,
@@ -111,3 +113,15 @@ async def karma(_, message):
         else:
             karma = 0
             await message.reply_text(f'**Total Points**: __{karma}__')
+
+
+__mod_name__ = "Karma"
+__help__ = """**[UPVOTE]**
+Regex: `+` `+1` `thx` `tnx` `ty` `thank you` `thanx` `thanks` `pro` `cool` `good` `👍` `nice` `noice` `piro`.
+
+**[DOWNVOTE]**
+Regex: `-` `-1` `👎` `noob` `Noob` `gross` `fuck off`.
+
+Reply or tag to someone with Regex above to up or down the karma.
+Reply to a message with /karma to check a user's karma
+Send /karma without replying to any message to check karma list of top 10 users."""
