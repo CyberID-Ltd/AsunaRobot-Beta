@@ -12,7 +12,10 @@ __help__ = """
  ❍ /wttr moon*:* Get the current status of moon
  
 *Quotly*
-- /q : reply any message with this command to create a sticker.
+ ❍ /q : reply any message with this command to create a sticker.
+
+*Phone Info*
+ ❍ /phone `<full phone number>` : Get details of phone number.
 
 *Converts*
  ❍ /encrypt*:* Encrypts The Given Text
