@@ -6,7 +6,7 @@ import spamwatch
 from aiohttp import ClientSession
 from Python_ARQ import ARQ
 from redis import StrictRedis
-
+from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
 import telegram.ext as tg
 from pyrogram import Client, errors
 from telethon import TelegramClient
@@ -215,6 +215,8 @@ else:
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("layla", API_ID, API_HASH)
+mongo_client = MongoClient(MONGO_DB_URI)
+db = mongo_client.LaylaRobot
 pbot = Client("laylapbot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
 
