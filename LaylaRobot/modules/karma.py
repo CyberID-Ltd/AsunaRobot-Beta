@@ -72,7 +72,7 @@ async def update_karma(chat_id: int, name: str, karma: dict):
     )
 
 
-__mod_name__ = "Karma"
+__mod_name__ = "KRM"
 __help__ = """[UPVOTE] - Use upvote keywords like "+", "+1", "thanks" etc to upvote a message.
 [DOWNVOTE] - Use downvote keywords like "-", "-1", etc to downvote a message.
 
