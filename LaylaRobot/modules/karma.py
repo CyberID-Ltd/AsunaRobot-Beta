@@ -75,9 +75,9 @@ async def update_karma(chat_id: int, name: str, karma: dict):
 __mod_name__ = "Karma"
 __help__ = """[UPVOTE] - Use upvote keywords like "+", "+1", "thanks" etc to upvote a message.
 [DOWNVOTE] - Use downvote keywords like "-", "-1", etc to downvote a message.
+
 Reply to a message with /karma to check a user's karma
-Send /karma without replying to any message to chek karma list of top 10 users
-<i> Special Credits to WilliamButcherBot </i>"""
+Send /karma without replying to any message to check karma list of top 10 users."""
 
 
 regex_upvote = r"^((?i)\+|\+\+|\+1|thx|tnx|ty|thank you|thanx|thanks|pro|cool|good|👍)$"
