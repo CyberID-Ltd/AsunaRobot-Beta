@@ -1,4 +1,4 @@
-# © @Mr_Dark_Prince
+# © @Mr_Dark_Prince & @zYxDevs
 import aiohttp
 from pyrogram import filters
 from LaylaRobot import pbot
@@ -8,7 +8,7 @@ from LaylaRobot.pyrogramee.errors import capture_err
 __mod_name__ = "Github"
 __help__ = """
 /github `<github username>` - Returns info about a GitHub user or organization.
-/repo - Return the GitHub user or organization repository list (Limited at 40)
+/repo `<github username>` - Return the GitHub user or organization repository list (Limited at 40)
 """
 
 
@@ -32,23 +32,37 @@ async def github(_, message):
                 company = result['company']
                 bio = result['bio']
                 created_at = result['created_at']
+                updated_at = result['updated_at']
                 avatar_url = result['avatar_url']
                 blog = result['blog']
                 location = result['location']
-                repositories = result['public_repos']
+                public_repos = result['public_repos']
+                public_gists = result['public_gists']
                 followers = result['followers']
                 following = result['following']
+                id = result['id']
+                repos_url = result['repos_url']
+                type = result['type']
+                hireable = result['hireable']
+                email = result['email']
                 caption = f"""**Info Of {name}**
-**Username:** `{username}`
-**Bio:** `{bio}`
-**Profile Link:** [Click Here]({url})
-**Company:** `{company}`
-**Created On:** `{created_at}`
-**Repositories:** `{repositories}`
-**Blog:** `{blog}`
-**Location:** `{location}`
-**Followers:** `{followers}`
-**Following:** `{following}`"""
+**👨‍💼 Username:** `{username}`
+**🔖 Account ID:** `{id}`
+**📝 Account type:** `{type}`
+**📨 Email:** `{email}`
+**✍️ Bio:** `{bio}`
+**📶 Profile Link:** [Click Here]({url})
+**🏢 Company:** `{company}`
+**🌚 Hireable:** `{hireable}`
+**📒 Created at:** `{created_at}`
+**♻️ Updated at:** `{updated_at}`
+**⛵️ Public Repos:** `{public_repos}`
+**🚁 Public Gists:** `{public_gists}`
+**🔰 Repos Url:** `{repos_url}`
+**🌍 Website:** `{blog}`
+**📍 Location:** `{location}`
+**➡️ Followers:** `{followers}`
+**⬅️ Following:** `{following}`"""
             except Exception as e:
                 print(str(e))
                 pass
