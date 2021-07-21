@@ -3,7 +3,7 @@
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/7a7628a136b4468894768017d1b462d3)](https://www.codacy.com/gh/zYxDevs/AsunaRobot-Beta/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=zYxDevs/AsunaRobot-Beta&amp;utm_campaign=Badge_Grade) [![Maintenance](https://img.shields.io/badge/Maintained-Yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com) [![Updates channel!](https://img.shields.io/badge/Join%20Groups-★-blue)](https://t.me/AnimeKyokai)
 
-A modular Telegram Python bot running on python3 with a sqlalchemy, redis, mongo database
+A modular Telegram Python bot running on python3 with a sqlalchemy, redislab, and mongo database.
 
 ## How to setup/deploy.
 
