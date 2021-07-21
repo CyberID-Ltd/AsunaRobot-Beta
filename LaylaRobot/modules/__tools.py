@@ -17,9 +17,14 @@ __help__ = """
 *Phone Info*
  ❍ /phone `<full phone number>` : Get details of phone number.
 
-*Converts*
+*JSON*
+ ❍ /json*:* Get Detailed info about any message
+
+*Encryptor*
  ❍ /encrypt*:* Encrypts The Given Text
  ❍ /decrypt*:* Decrypts Previously Ecrypted Text
+
+*Zipper*
  ❍ /zip*:* reply to a telegram file to compress it in .zip format
  ❍ /unzip*:* reply to a telegram file to decompress it from the .zip format
 """
