@@ -18,7 +18,7 @@
 
 __mod_name__ = "Music Player"
 __help__ = """
-          》* Asuna Music * 《
+          *》  Asuna Music  《*
             
  Asuna Music plays plays music in your group's voice chat
  
