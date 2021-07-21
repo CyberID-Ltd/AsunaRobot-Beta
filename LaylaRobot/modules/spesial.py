@@ -1,26 +1,27 @@
 __mod_name__ = "Spesial"
 __help__ = """
-──「 Urban Dictionary: 」──
--> /ud <word>: Type the word or expression you want to search use.
+*──「 Urban Dictionary: 」──*
+*->- /ud `<word>`
+Type the word or expression you want to search use.
 
-──「 Currency Converter: 」──
+*──「 Currency Converter: 」──*
 Example syntax: /cash 1 USD INR
--> /cash
-currency converter
+*->* /cash
+Currency converter
 
-──「 Wallpapers: 」──
--> /wall <query>
-get a wallpaper from wall.alphacoders.com
+*──「 Wallpapers: 」──*
+*->* /wall `<query>`
+Get a wallpaper from wall.alphacoders.com
 
-──「 Text-to-Speach 」──
--> /tts <sentence>
+*──「 Text-to-Speach 」──*
+*->* /tts `<sentence>`
 Text to Speech!
 
-──「 Speach-to-Text 」──
--> /stt <reply audio>
+*──「 Speach-to-Text 」──*
+*->* /stt `<reply audio>`
 Speach to Text!
 
-──「 Playstore: 」──
--> /app <app name>
-finds an app in playstore for you
+*──「 Playstore: 」──*
+*->* /app `<app name>`
+Finds an app in playstore for you
 """
