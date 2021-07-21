@@ -41,7 +41,6 @@ async def github(_, message):
                 followers = result['followers']
                 following = result['following']
                 id = result['id']
-                repos_url = result['repos_url']
                 type = result['type']
                 hireable = result['hireable']
                 email = result['email']
@@ -49,20 +48,19 @@ async def github(_, message):
 **👨‍💼 Username:** `{username}`
 **🔖 Account ID:** `{id}`
 **📝 Account type:** `{type}`
+**📶 Profile Link:** [Click Here]({url})
 **📨 Email:** `{email}`
 **✍️ Bio:** `{bio}`
-**📶 Profile Link:** [Click Here]({url})
 **🏢 Company:** `{company}`
 **🌚 Hireable:** `{hireable}`
-**📒 Created at:** `{created_at}`
-**♻️ Updated at:** `{updated_at}`
 **⛵️ Public Repos:** `{public_repos}`
 **🚁 Public Gists:** `{public_gists}`
-**🔰 Repos Url:** `{repos_url}`
-**🌍 Website:** `{blog}`
 **📍 Location:** `{location}`
 **➡️ Followers:** `{followers}`
-**⬅️ Following:** `{following}`"""
+**⬅️ Following:** `{following}`
+**📒 Created at:** `{created_at}`
+**♻️ Updated at:** `{updated_at}`
+**🌍 Website:** `{blog}`"""
             except Exception as e:
                 print(str(e))
                 pass
