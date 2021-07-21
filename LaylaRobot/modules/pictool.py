@@ -1,8 +1,9 @@
-__mod_name__ = "Pict-Tool"
+__mod_name__ = "Pict Tool"
 
 __help__ = """
 *Remove background*
  ❍ /rmbg : Remove background your picture using remove.bg tools.
+Note: This command isn't complete yet.
 
 *Logo Maker*
  ❍ /logo text :  Create your logo with your name.
