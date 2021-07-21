@@ -27,7 +27,7 @@ def covid(update: Update, context: CallbackContext):
         reply_text = f"**Cases for {r['country']} 🦠**\nCases: {r['cases']:,}\nCases Today: {r['todayCases']:,}\nDeaths: {r['deaths']:,}\nDeaths Today: {r['todayDeaths']:,}\nRecovered: {r['recovered']:,}\nActive: {r['active']:,}\nCritical: {r['critical']:,}\nCases/Mil: {r['casesPerOneMillion']}\nDeaths/Mil: {r['deathsPerOneMillion']}"
     message.reply_text(reply_text, parse_mode=ParseMode.MARKDOWN)
     
-__mod_name__ = "Covid"
+__mod_name__ = "CVD"
 __help__ = """
 -> `/covid`
 To get Global data
