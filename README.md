@@ -183,4 +183,4 @@ The bot is based on the original work done by [PaulSonOfLars](https://github.com
 
 
 ### [OWNER Ihsan](https://t.me/RxyMX)
-### [Kanger Code](https://t.me/Yoga_CIC)
+### [EDITOR Yoga](https://t.me/Yoga_CIC)
