@@ -32,5 +32,5 @@ __help__ = """
  ❍ /unzip *:* reply to a telegram file to decompress it from the .zip format
 
 *Do not remove this if you respect me*
-ⓒ @Yoga_CIC & @WD_Chitra
+ⓒ @zYxDx & @SpreadNetworks
 """
