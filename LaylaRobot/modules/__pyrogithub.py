@@ -66,3 +66,40 @@ async def github(_, message):
                 print(str(e))
                 pass
     await message.reply_photo(photo=avatar_url, caption=caption)
+
+
+@pbot.on_message(filters.command('repo'))
+@capture_err
+async def repo(_, message):
+    if len(message.command) == 1:
+        await message.reply_text("/repo username")
+        return
+       username = message.text.split(None, 1)[1]
+       data = await fetch("https://api.github.com/users/{username}/repos?per_page=40")
+       data = await json_prettify(data)
+       await app.send_message(message.chat.id, text=data)
+       return
+"""
+    if len(message.command) != 2:
+        await message.reply_text("/repo username")
+        return
+    username = message.text.split(None, 1)[1]
+    URL = f'https://api.github.com/users/{username}/repos?per_page=40'
+    async with aiohttp.ClientSession() as session:
+        async with session.get(URL) as request:
+            if request.status == 404:
+                return await message.reply_text("404")
+            result = await app.send_message(message.chat.id, text=data)
+
+data = await fetch("https://corona.lmao.ninja/v2/all")
+        data = await json_prettify(data)
+        await app.send_message(message.chat.id, text=data)
+
+    message = update.effective_message
+    text = message.text[len('/repo '):]
+    usr = get(f'https://api.github.com/users/{text}/repos?per_page=40').json()
+    reply_text = "*Repo*\n"
+    for i in range(len(usr)):
+        reply_text += f"[{usr[i]['name']}]({usr[i]['html_url']})\n"
+    message.reply_text(reply_text, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
+"""
