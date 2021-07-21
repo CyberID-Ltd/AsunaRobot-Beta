@@ -27,9 +27,6 @@ from pyrogram.types import Message
 from LaylaRobot import pbot as app
 from LaylaRobot.utils.errors import capture_err
 
-__mod_name__ = "WebSS"
-__help__ = "/webss [URL] - Take A Screenshot Of A Webpage"
-
 
 @app.on_message(filters.command("webss"))
 @capture_err
