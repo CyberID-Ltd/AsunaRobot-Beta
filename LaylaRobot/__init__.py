@@ -100,7 +100,6 @@ if ENV:
     ARQ_API_KEY = os.environ.get("ARQ_API_KEY", None)
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
     LASTFM_API_KEY = os.environ.get("LASTFM_API_KEY", None)
-    REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
 
     try:
         BL_CHATS = set(int(x) for x in os.environ.get("BL_CHATS", "").split())
@@ -157,7 +156,6 @@ else:
     OPENWEATHERMAP_ID = Config.OPENWEATHERMAP_ID
     BOT_ID = Config.BOT_ID
     VIRUS_API_KEY = Config.VIRUS_API_KEY
-    REM_BG_API_KEY = Config.REM_BG_API_KEY
     DONATION_LINK = Config.DONATION_LINK
     LOAD = Config.LOAD
     NO_LOAD = Config.NO_LOAD
