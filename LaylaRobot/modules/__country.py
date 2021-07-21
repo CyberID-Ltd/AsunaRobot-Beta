@@ -109,6 +109,7 @@ Wikipedia: {wiki}</b>
         event.chat_id,
         caption,
         parse_mode="HTML",
+        link_preview=false,
     )
     
     await event.delete()
