@@ -52,7 +52,3 @@ async def _(event):
     else:
         await event.reply("`{}`".format(the_real_message))
 
-__mod_name__ = "JSON"
-__help__ = """
- ❍ /json*:* Get Detailed info about any message
-"""
