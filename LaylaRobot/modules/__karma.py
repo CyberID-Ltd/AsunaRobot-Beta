@@ -1,18 +1,23 @@
-# © zYxDevs and/or Yoga_CIC
-
-from LaylaRobot import pbot as Yoga
-from LaylaRobot.utils.errors import capture_err
+from LaylaRobot import pbot as pgram
 from LaylaRobot.utils.dbfunctions import (update_karma, get_karma, get_karmas,
                                    int_to_alpha, alpha_to_int)
 from LaylaRobot.utils.filter_groups import karma_positive_group, karma_negative_group
 from pyrogram import filters
 
+__mod_name__ = "Karma"
+__help__ = """
+[UPVOTE]👍 - Use upvote keywords like "+", "+1", "thanks" etc to upvote a message.
+[DOWNVOTE]👎 - Use downvote keywords like "-", "-1", etc to downvote a message.\n
+Reply to a message with /karma to check a user's karma
+Send /karma without replying to any message to chek karma list of top 10 users
+"""
 
-regex_upvote = r"^((?i)\+|\+\+|\+1|thx|tnx|ty|thank you|thanx|thanks|pro|cool|good|👍|nice|noice|piro)$"
-regex_downvote = r"^(\-|\-\-|\-1|👎|noob|Noob|gross|fuck off)$"
+
+regex_upvote = r"^((?i)\+|\+\+|\+1|thank you|👍)$"
+regex_downvote = r"^(\-|\-\-|\-1|👎)$"
 
 
-@Yoga.on_message(
+@pgram.on_message(
     filters.text
     & filters.group
     & filters.incoming
@@ -23,7 +28,7 @@ regex_downvote = r"^(\-|\-\-|\-1|👎|noob|Noob|gross|fuck off)$"
     & ~filters.edited,
     group=karma_positive_group
 )
-@capture_err
+
 async def upvote(_, message):
     if message.reply_to_message.from_user.id == message.from_user.id:
         return
@@ -45,7 +50,7 @@ async def upvote(_, message):
     )
 
 
-@Yoga.on_message(
+@pgram.on_message(
     filters.text
     & filters.group
     & filters.incoming
@@ -56,7 +61,7 @@ async def upvote(_, message):
     & ~filters.edited,
     group=karma_negative_group
 )
-@capture_err
+
 async def downvote(_, message):
     if message.reply_to_message.from_user.id == message.from_user.id:
         return
@@ -78,8 +83,8 @@ async def downvote(_, message):
     )
 
 
-@Yoga.on_message(filters.command("karma") & filters.group)
-@capture_err
+@pgram.on_message(filters.command("karma") & filters.group)
+
 async def karma(_, message):
     chat_id = message.chat.id
 
@@ -98,7 +103,7 @@ async def karma(_, message):
             if limit > 9:
                 break
             try:
-                user_name = (await Yoga.get_users(int(user_idd))).username
+                user_name = (await pgram.get_users(int(user_idd))).username
             except Exception:
                 continue
             msg += f"{user_name} : `{karma_count}`\n"
@@ -113,15 +118,3 @@ async def karma(_, message):
         else:
             karma = 0
             await message.reply_text(f'**Total Points**: __{karma}__')
-
-
-__mod_name__ = "Karma"
-__help__ = """**[UPVOTE]**
-Regex: `+` `+1` `thx` `tnx` `ty` `thank you` `thanx` `thanks` `pro` `cool` `good` `👍` `nice` `noice` `piro`.
-
-**[DOWNVOTE]**
-Regex: `-` `-1` `👎` `noob` `Noob` `gross` `fuck off`.
-
-Reply or tag to someone with Regex above to up or down the karma.
-Reply to a message with /karma to check a user's karma
-Send /karma without replying to any message to check karma list of top 10 users."""
