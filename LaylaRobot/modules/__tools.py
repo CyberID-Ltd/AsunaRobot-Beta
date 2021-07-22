@@ -32,16 +32,13 @@ __help__ = """
  ❍ /webss [URL] *:* Take A Screenshot Of A Webpage
 
 *Link shortener*
- ❍ /pdisk `<your link>` *:* shorten your url using pdisk shortener.
- ❍ /bitly `<your link>` *:* shorten your url using bitly shortener.
-Note:
 This module is not complete yet, maybe have a bug.
-For now just send your url link.
+For now just send url link you want to short.
 
 *Zipper*
  ❍ /zip *:* reply to a telegram file to compress it in .zip format
  ❍ /unzip *:* reply to a telegram file to decompress it from the .zip format
 
 *Don't delete this if you appreciate my work*
-(c) @Yoga_CIC & @SpreadNetworks
+(c) 2021 @zYxDx & @SpreadNetworks
 """
