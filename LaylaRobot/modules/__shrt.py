@@ -25,3 +25,4 @@ async def pdisk_shortlink(link):
         async with session.get(url, params=params, raise_for_status=True) as response:
             data = await response.json()
             return data["shortenedUrl"]
+
