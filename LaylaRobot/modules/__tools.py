@@ -31,10 +31,17 @@ __help__ = """
 *Website Screenshoot*
  ❍ /webss [URL] *:* Take A Screenshot Of A Webpage
 
+*Link shortener*
+ ❍ /pdisk `<your link>` *:* shorten your url using pdisk shortener.
+ ❍ /bitly `<your link>` *:* shorten your url using bitly shortener (no ads).
+*Note*
+This module is not complete yet, maybe have a bug.
+For now just send url link, example `https://yourlink.com`
+
 *Zipper*
  ❍ /zip *:* reply to a telegram file to compress it in .zip format
  ❍ /unzip *:* reply to a telegram file to decompress it from the .zip format
 
-*Do not remove this if you respect me*
-ⓒ @zYxDx & @SpreadNetworks
+*Don't delete this if you appreciate my work*
+© @Yoga_CIC *&* @SpreadNetworks
 """
