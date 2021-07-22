@@ -90,7 +90,7 @@ useragent = "Mozilla/5.0 (Linux; Android 9; SM-G960F Build/PPR1.180610.011; wv) 
 opener.addheaders = [("User-agent", useragent)]
 
 
-@register(pattern=r"^/reverse(?: |$)(\d*)")
+@register(pattern=r"^/grs(?: |$)(\d*)")
 async def okgoogle(img):
     """ For .reverse command, Google search images and stickers. """
     if os.path.isfile("okgoogle.png"):
@@ -206,7 +206,7 @@ async def scam(results, lim):
     return imglinks
 
 # Test
-
+"""
 @register(pattern=r"^/reverse@YogaWaifuBot(?: |$)(\d*)")
 async def okgoogle(img):
     """ For .reverse command, Google search images and stickers. """
@@ -321,7 +321,7 @@ async def scam(results, lim):
             break
 
     return imglinks
-
+"""
 # End of test
 
 @register(pattern="^/app (.*)")
@@ -400,10 +400,9 @@ __help__ = """
  ❍ /img <text>*:* Search Google for images and returns them\nFor greater no. of results specify lim, For eg: `/img hello lim=10`
  ❍ /app <appname>*:* Searches for an app in Play Store and returns its details.
  ❍ /reverse: Does a reverse image search of the media which it was replied to.
+ ❍ /grs: Does a reverse image search of the media which it was replied to.
  ❍ /gps <location>*:* Get gps location.
  ❍ /github <username>*:* Get information about a GitHub user.
  ❍ /country <country name>*:* Gathering info about given country
  ❍ /imdb <Movie name>*:* Get full info about a movie with imdb.com
- ❍ Yone <query>*:* Yone answers the query
-  💡Ex: `Yone where is Indonesia?`
 """
