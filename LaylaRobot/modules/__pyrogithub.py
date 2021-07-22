@@ -5,14 +5,6 @@ from LaylaRobot import pbot
 from LaylaRobot.pyrogramee.errors import capture_err
 
 
-__mod_name__ = "Github"
-__help__ = """
-● /github `<github username>` - Returns info about a GitHub user or organization.
-
-● /repo `<github username>` - Return the GitHub user or organization repository list (Limited at 40)
-"""
-
-
 @pbot.on_message(filters.command('github'))
 @capture_err
 async def github(_, message):
