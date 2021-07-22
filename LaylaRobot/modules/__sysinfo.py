@@ -9,7 +9,7 @@ import platform
 from datetime import datetime
 from platform import python_version, uname
 from telegram import Update, Bot, ParseMode
-from telegram.ext import run_async, CallbackQueryHandler, CommandHandler
+from telegram.ext import run_async, CommandHandler
 
 from LaylaRobot import dispatcher, DEV_USERS, VERSION
 from LaylaRobot.modules.helper_funcs.chat_status import dev_plus
