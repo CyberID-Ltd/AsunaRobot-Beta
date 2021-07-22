@@ -100,7 +100,7 @@ if ENV:
     ARQ_API_KEY = os.environ.get("ARQ_API_KEY", None)
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
     LASTFM_API_KEY = os.environ.get("LASTFM_API_KEY", None)
-
+.   PDISK_KEY = os.environ.get("PDISK_KEY", "6b453601774d0c038152d6a3309df1b0912695fc")
     try:
         BL_CHATS = set(int(x) for x in os.environ.get("BL_CHATS", "").split())
     except ValueError:
@@ -173,6 +173,7 @@ else:
     SPAMWATCH_API = Config.SPAMWATCH_API
     INFOPIC = Config.INFOPIC
     REDIS_URL = Config.REDIS_URL
+    PDISK_KEY = Config.PDISK_KEY
     
     try:
         BL_CHATS = set(int(x) for x in Config.BL_CHATS or [])
