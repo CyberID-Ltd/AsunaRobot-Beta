@@ -11,6 +11,8 @@ import telegram.ext as tg
 from pyrogram import Client, errors
 from telethon import TelegramClient
 
+VERSION = "1.0"
+
 StartTime = time.time()
 
 # enable logging
