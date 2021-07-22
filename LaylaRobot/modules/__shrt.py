@@ -1,3 +1,5 @@
+# © zYxDevs at github.com/zYxDevs or t.me/Yoga_CIC
+
 import aiohttp
 from pyrogram import Client, filters
 
