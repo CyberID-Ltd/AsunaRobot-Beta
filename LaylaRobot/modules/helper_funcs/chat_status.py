@@ -97,29 +97,48 @@ def is_user_in_chat(chat: Chat, user_id: int) -> bool:
     return member.status not in ("left", "kicked")
 
 
+#def dev_plus(func):
+#    @wraps(func)
+#    def is_dev_plus_func(update: Update, context: CallbackContext, *args, **kwargs):
+#        bot = context.bot
+#        user = update.effective_user
+#
+#        if user.id in DEV_USERS:
+#            return func(update, context, *args, **kwargs)
+#        elif not user:
+#            pass
+#        elif DEL_CMDS and " " not in update.effective_message.text:
+#            try:
+#                update.effective_message.delete()
+#            except:
+#                pass
+#        else:
+#            update.effective_message.reply_text(
+#                "This is a developer restricted command."
+#                " You do not have permissions to run this."
+#            )
+#
+#    return is_dev_plus_func
+
+
 def dev_plus(func):
     @wraps(func)
-    def is_dev_plus_func(update: Update, context: CallbackContext, *args, **kwargs):
-        bot = context.bot
+    def is_dev_plus_func(bot: Bot, update: Update, *args, **kwargs):
+
         user = update.effective_user
 
         if user.id in DEV_USERS:
-            return func(update, context, *args, **kwargs)
+            return func(bot, update, *args, **kwargs)
         elif not user:
             pass
         elif DEL_CMDS and " " not in update.effective_message.text:
-            try:
-                update.effective_message.delete()
-            except:
-                pass
+            update.effective_message.delete()
         else:
-            update.effective_message.reply_text(
-                "This is a developer restricted command."
-                " You do not have permissions to run this."
-            )
+            update.effective_message.reply_text("This is a developer restricted command. You do not have permissions to run this.")
 
     return is_dev_plus_func
 
+# Edited
 
 def sudo_plus(func):
     @wraps(func)
