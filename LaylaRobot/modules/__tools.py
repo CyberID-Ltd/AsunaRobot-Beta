@@ -32,8 +32,9 @@ __help__ = """
  ❍ /webss [URL] *:* Take A Screenshot Of A Webpage
 
 *Link shortener*
-This module is not complete yet, maybe have a bug.
-For now just send url link you want to short.
+ ❍ This module is not complete yet, maybe have a bug.
+ ❍ For now just send url link you want to short.
+ ❍ Example `https://yourlongurl.com`
 
 *Zipper*
  ❍ /zip *:* reply to a telegram file to compress it in .zip format
