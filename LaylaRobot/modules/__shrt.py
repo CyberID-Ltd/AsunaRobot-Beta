@@ -12,7 +12,7 @@ async def link_handler(_, message):
     link = message.matches[0].group(0)
     try:
         short_link = await pdisk_shortlink(link)
-        await message.reply(f''' Click to Copy - <code>{short_link}</code>.\nHere is your  [short link]({short_link})''', quote=True)
+        await message.reply(f''' Click to Copy\n\n<code>{short_link}</code>.\n\nHere is your  [short link]({short_link})''', quote=True)
     except Exception as e:
         await message.reply(f'Error: {e}', quote=True)
 
