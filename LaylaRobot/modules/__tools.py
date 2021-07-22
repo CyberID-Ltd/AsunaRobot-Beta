@@ -11,6 +11,10 @@ __help__ = """
  ❍ /wttr <city> *:* Advanced weather module, usage same as /weather
  ❍ /wttr moon *:* Get the current status of moon
  
+*Github*
+ ❍ /github `<github username>` *:* Returns info about a GitHub user or organization.
+ ❍ /repo `<github username>` *:* Return the GitHub user or organization repository list (Limited at 40)
+
 *Quotly*
  ❍ /q *:* reply any message with this command to create a sticker.
 
