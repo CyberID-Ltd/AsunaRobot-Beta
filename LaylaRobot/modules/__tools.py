@@ -5,7 +5,7 @@ __help__ = """
  ❍ /fakegen *:* Generates Fake Information
  ❍ /picgen *:* Generate a fake pic 
 
-*Date-time-Weather*
+*Date-Time-Weather*
  ❍ /time <country code> *:* Gives information about a timezone.
  ❍ /weather <city> *:* Get weather info in a particular place.
  ❍ /wttr <city> *:* Advanced weather module, usage same as /weather
@@ -31,15 +31,15 @@ __help__ = """
 *Website Screenshoot*
  ❍ /webss [URL] *:* Take A Screenshot Of A Webpage
 
-*Link shortener*
+*Link Shortener*
  ❍ This module is not complete yet, maybe have a bug.
  ❍ For now just send url link you want to short.
- ❍ Example `https://yourlongurl.com`
+ ❍ Work in private only, not working in groups.
 
 *Zipper*
  ❍ /zip *:* reply to a telegram file to compress it in .zip format
  ❍ /unzip *:* reply to a telegram file to decompress it from the .zip format
 
-*Don't delete this if you appreciate my work*
-(c) 2021 @zYxDx & @SpreadNetworks
+*Don't delete this if you appreciate my work.*
+ *© 2021 by @zYxDx & @SpreadNetworks*
 """
