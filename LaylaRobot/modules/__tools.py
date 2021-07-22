@@ -43,5 +43,5 @@ For now just send your url link.
  ❍ /unzip *:* reply to a telegram file to decompress it from the .zip format
 
 *Don't delete this if you appreciate my work*
-© @Yoga_CIC & @SpreadNetworks
+(c) @Yoga_CIC & @SpreadNetworks
 """
