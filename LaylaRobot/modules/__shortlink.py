@@ -1,9 +1,8 @@
-from os import environ
 import aiohttp
 from pyrogram import Client, filters
 
 from LaylaRobot import pbot as yoga
-from LaylaRobot import PDISK_KEY, BITLY_KEY, dispatcher
+from LaylaRobot import PDISK_KEY, dispatcher
 from LaylaRobot.pyrogramee.errors import capture_err
 
 
@@ -34,6 +33,7 @@ __help__ = """
  ❍ /bitly `<your link>` *:* shorten your url using bitly shortener (no ads).
 *Note*
 This module is not complete yet, maybe have a bug.
+For now just send url link, example https://yourlink.com
 
 *Don't delete this if you appreciate my work.*
 © @Yoga_CIC *&* @SpreadNetworks
