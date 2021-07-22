@@ -33,15 +33,15 @@ __help__ = """
 
 *Link shortener*
  ❍ /pdisk `<your link>` *:* shorten your url using pdisk shortener.
- ❍ /bitly `<your link>` *:* shorten your url using bitly shortener (no ads).
-*Note*
+ ❍ /bitly `<your link>` *:* shorten your url using bitly shortener.
+Note:
 This module is not complete yet, maybe have a bug.
-For now just send url link, example `https://yourlink.com`
+For now just send your url link.
 
 *Zipper*
  ❍ /zip *:* reply to a telegram file to compress it in .zip format
  ❍ /unzip *:* reply to a telegram file to decompress it from the .zip format
 
 *Don't delete this if you appreciate my work*
-© @Yoga_CIC *&* @SpreadNetworks
+© @Yoga_CIC & @SpreadNetworks
 """
