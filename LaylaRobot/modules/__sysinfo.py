@@ -9,12 +9,12 @@ import platform
 from datetime import datetime
 from platform import python_version, uname
 from telegram import Update, Bot, ParseMode
-from telegram.ext import run_async, CallbackQueryHandler, CommandHandler
+from telegram.ext import run_async, CommandHandler
 
-from cinderella import dispatcher, DEV_USERS, VERSION
-from cinderella.modules.helper_funcs.chat_status import dev_plus
-import cinderella.modules.helper_funcs.git_api as git
-from cinderella.modules.helper_funcs.filters import CustomFilters
+from LaylaRobot import dispatcher, DEV_USERS, VERSION
+from LaylaRobot.modules.helper_funcs.chat_status import dev_plus
+import LaylaRobot.modules.helper_funcs.git_api as git
+from LaylaRobot.modules.helper_funcs.filters import CustomFilters
 
 
 @dev_plus
